@@ -136,11 +136,13 @@ video{
 <div id="envelope" onclick="openEnvelope()"></div>
 
 <audio id="bgMusic" loop>
-<source src="music/romantic.mp3" type="audio/mpeg">
+<source src="romantic.mp3" type="audio/mpeg">
+
 </audio>
 
 <audio id="openSound">
-<source src="music/open.mp3" type="audio/mpeg">
+<source src="open.mp3" type="audio/mpeg">
+
 </audio>
 
 <!-- Letter -->
@@ -190,7 +192,8 @@ video{
 <div class="screen" id="videos">
 <h2>Our Special Videos 🎥</h2>
 <video controls>
-<source src="videos/1.mp4" type="video/mp4">
+<source src="1.mp4" type="video/mp4">
+
 </video>
 <button class="yes" onclick="show('final')">Final ❤️</button>
 </div>
@@ -300,12 +303,13 @@ show("videos");
 /* Image Logic */
 let clickedNumbers=[];
 const images={
-1:"photos/1.jpg",
-2:"photos/2.jpg",
-3:"photos/3.jpg",
-4:"photos/4.jpg",
-5:"photos/5.jpg"
+1:"1.jpg",
+2:"2.jpg",
+3:"3.jpg",
+4:"4.jpg",
+5:"5.jpg"
 };
+
 
 function showImage(num){
 if(!clickedNumbers.includes(num)){
